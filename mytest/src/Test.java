@@ -132,20 +132,6 @@ public class Test /*extends DemoTestC*/{
 	    //return arr;
 	}
 	
-	public static void arrSort(int[] arr,int length) {
-		int i,j,k,tmp;
-		for(i=0,j=0;i<length;i++) {
-			if(arr[i] < 0) {
-				tmp = arr[i];
-				for(k = i;k < j;k--) {
-					arr[k] = arr[k - 1];
-				}
-				arr[j] = tmp;
-				j++;
-			}
-		}
-	}
-	
 	public static void add3(Integer i) {
 		int val = i.intValue();
 		val += 3;
